@@ -1,0 +1,115 @@
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.dsmeta-title-sales {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20.84px;
+}
+
+.dsmeta-form-control {
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    width: 100%;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.dsmeta-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-sales-table thead {
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E9E9E9;
+}
+
+.dsmeta-sales-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-sales-table tbody tr {
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.dsmeta-sales-table tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.dsmeta-sales-table tbody tr:nth-child(odd) {
+    background-color: #242C3B;
+}
+
+.dsmeta-red-btn {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dsmeta-red-btn img {
+    height: 21.34px;
+    width: 18.89px;
+}
+
+.dsmeta-red-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show576 {
+    display: none;
+}
+
+.show992 {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .show576 {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 30px;
+    }
+
+    .dsmeta-sales-table tbody tr {
+        height: 62px;
+    }
+
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .show992 {
+        display: table-cell;
+    }
+}
