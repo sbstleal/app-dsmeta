@@ -2,11 +2,10 @@ package com.devsuperior.dsmeta.entities;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.Date;
 
 @Entity
 @Table(name = "tb_sales")
-public class Sales {
+public class Sale {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,7 +16,7 @@ public class Sales {
     private Double amount;
     private LocalDate date;
 
-    public Sales() {
+    public Sale() {
     }
 
     public Long getId() {
