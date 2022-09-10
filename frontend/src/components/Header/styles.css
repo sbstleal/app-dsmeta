@@ -1,6 +1,7 @@
 header {
     height: 220px;
-    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    /* background: linear-gradient(180deg, #102347 0%, #181818 100%); */
+    background: linear-gradient(180deg, #102347 0%, #000000 100%);
     display: flex;
     align-items: center;
     justify-content: center;
